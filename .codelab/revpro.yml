@@ -15,7 +15,7 @@
     title: abhishek-a-b/pep-gitpod-workspace - main
     ref: main
     refType: branch
-    revision: '09e64580cba992f44764c51240917477cae81fc5'
+    revision: 5d0ee2b0d677c8aee69a52cbfbf882eaab758954
     repository:
       cloneUrl: https://github.com/abhishek-a-b/pep-gitpod-workspace.git
       host: github.com
@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: abhishekab-pepgitpodwor-031fbq12971
-    :workspace_url: https://abhishekab-pepgitpodwor-031fbq12971.ws-us79.gitpod.io
+    :workspace_id: abhishekab-pepgitpodwor-dur7nu4vb27
+    :workspace_url: https://abhishekab-pepgitpodwor-dur7nu4vb27.ws-us81.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: abhishek.bhalerao@revature.com
     :git_user_name: abhishek-a-b
@@ -496,10 +496,11 @@
     :Week: 4
     :Order: 6
     :Type: lab
-    :count_tests: 1
+    :count_tests: 2
     :count_tests_passed: 0
     :tests:
       createTableSurrogateKeyTest: 0
+      TestPrimaryKeyUniqueConstraint: 0
   SelectColumns:
     :Week: 4
     :Order: 7
@@ -512,12 +513,11 @@
     :Week: 4
     :Order: 8
     :Type: lab
-    :count_tests: 3
+    :count_tests: 2
     :count_tests_passed: 0
     :tests:
       problem1GetAllSmiths: 0
       problem2SalaryGreaterThan: 0
-      problem3NamesStartingWithA: 0
   Update:
     :Week: 4
     :Order: 9
@@ -726,13 +726,15 @@
       getAllFlightsTest1: 0
       getFlightByIDTest1: 0
       getFlightByIDTest2: 0
-      getFlightsFromCityToCityTest1: 0
+      getFlightsDAOFromCityToCityTest1: 0
       getFlightsFromCityToCityTest2: 0
       addFlightCheckByIdTest1: 0
       addFlightCheckAllFlightsTest1: 0
-      updateFlightTest1: 0
+      updateFlightDAOTest1: 0
       getAllFlightsTest: 0
       addFlightTest: 0
+      getFlightsFromCityToCityTest1: 0
+      updateFlightTest1: 0
       updateFlightTestNonExistent: 0
   ForeignKey:
     :Week: 6
@@ -816,14 +818,15 @@
     :count_tests: 13
     :count_tests_passed: 0
     :tests:
-      getAllAuthorsTest: 0
+      getAllAuthorsDAOTest: 0
       insertAuthorCheckWithGetAllTest: 0
+      getAllAuthorsServiceTest: 0
+      addAuthorTest: 0
       getAllBooksTest: 0
       getBookByIsbnTest: 0
       insertBookCheckWithGetAllTest: 0
       insertBookCheckWithGetByIdTest: 0
       getBooksWithBookCountOverZeroTest: 0
-      addAuthorTest: 0
       getAllBooksTest1: 0
       addBookVerifyNotNullOnSuccessfulAddTest: 0
       addBookVerifyNullOnUnsuccessfulAdd: 0
